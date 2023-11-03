@@ -51,11 +51,11 @@ const menuItems = {
       { name: "Fish Sandwich", ingredient: "", price: "800" },
     ],
     Fish: [
-      { name: "Fish Couttlet", ingredient: "", price: "500" },
-      { name: "Fish Goulash", ingredient: "", price: "550" },
-      { name: "Grilled Nile Perch", ingredient: "", price: "750" },
-      { name: "Shish Kebab", ingredient: "", price: "550" },
-      { name: "Baked Fish", ingredient: "", price: "700" },
+      { name: "Fish Couttlet", ingredient: "Fish Telapiya, wheite flour, egg, bread, crams Acheto, mustard garlic", price: "500" },
+      { name: "Fish Goulash", ingredient: "Fish Telapiya, Onion, Tomato, Chilli soya sauce garlic", price: "550" },
+      { name: "Grilled Nile Perch", ingredient: "Nile Perch, Colander, Lemon SKin, Soya sauce, Organo, sesame beans", price: "750" },
+      { name: "Shish Kebab", ingredient: "Desi, Telapiya fish desi, onion, tomato, chilli white flour(pene), bonbo sugar sesame beans", price: "550" },
+      { name: "Baked Fish", ingredient: "Nile perch, colander, mustard, lemon skin, soya sauce, sesame beans", price: "700" },
     ],
     Soup: [
       { name: "Chicken Cream Soup", ingredient: "", price: "450" },
