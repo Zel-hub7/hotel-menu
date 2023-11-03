@@ -3,7 +3,7 @@ import img from './img/food.jpg'
 
 const menuItems = {
     Salad: [
-      { name: "Tuna Salad", ingredient: "", price: "600" },
+      { name: "Tuna Salad", ingredient: "Drained Tuna in a medium bowl, plain,green, yoghurt,onion,lettuce,tomato", price: "600" },
       { name: "Tomato Salad", ingredient: "", price: "500" },
       { name: "Lentil and Avocado Salad", ingredient: "", price: "600" },
       { name: "Ethiopian Salad", ingredient: "", price: "550" },
@@ -15,12 +15,12 @@ const menuItems = {
       { name: "Potato Salad", ingredient: "", price: "500" },
     ],
     Juice: [
-      { name: "Fruit Punch", ingredient: "", price: "600" },
-      { name: "Papaye Juice", ingredient: "", price: "300" },
-      { name: "Special Juice", ingredient: "", price: "350" },
-      { name: "Watermelon and Ginger Juice", ingredient: "", price: "250" },
-      { name: "Apple Juice", ingredient: "", price: "250" },
-      { name: "Avocado Juice", ingredient: "", price: "250" },
+      { name: "Fruit Punch", ingredient: "Apple, Mango, Papaye, Watermelon, Strawberry, green and red apple", price: "600" },
+      { name: "Papaye Juice", ingredient: "Papaye Slice, Lemmon, Sugar, Water, Vinto", price: "300" },
+      { name: "Special Juice", ingredient: "Papaye Juice, Mango Juice, Avocado Juice, Vinto and Honey", price: "350" },
+      { name: "Watermelon and Ginger Juice", ingredient: "Slice watermelon, ginger juice, Sugar", price: "250" },
+      { name: "Apple Juice", ingredient: "Applce Slice, and Water, vinto", price: "250" },
+      { name: "Avocado Juice", ingredient: "Avocado, Sugar, Lemon, Water, Vinto", price: "250" },
     ],
     Lunch: [
       { name: "Conbo Fasting", ingredient: "", price: "600" },
@@ -89,7 +89,7 @@ const menuItems = {
     return (
       <div className="all-items">
         <div className="description">
-        <h2 className="food-name">{selectedCategory}</h2>
+        <h2 className="food-name cat">{selectedCategory}</h2>
           <div className="menu-items">
             {filteredItems.map(item => (
                 
@@ -100,7 +100,7 @@ const menuItems = {
                   </div>
                   <div className="food-details">
                     <p className="food-name">{item.name}</p>
-                    <p className="des">This is the food description I was waiting for</p>
+                    <p className="des">{item.ingredient}</p>
                     <div className="prices">
                       <h3 id="price">Price</h3>
                       <h3 id="pr">{item.price}Br</h3>

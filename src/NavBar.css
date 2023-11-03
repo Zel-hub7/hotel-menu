@@ -71,6 +71,8 @@
      .navbar-items {
         background-color: white;
         list-style: none;
+        box-shadow: 10px 10px 8px 10px #030303
+    
      }
      .navbar-items li a {
         text-decoration: none;
