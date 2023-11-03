@@ -1,0 +1,82 @@
+/* Your CSS file */
+
+/* Styles for the mobile menu */
+.navbar-menu {
+    display: none;
+  }
+  
+  .navbar-burger {
+    display: block;
+    cursor: pointer;
+  }
+  
+  /* Styles for the active (open) menu */
+  .navbar-menu.active {
+    display: block;
+  }
+  
+  .navbar-burger.active span:first-child {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .navbar-burger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-burger.active span:last-child {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  /* Add this CSS to your NavBar.css file */
+
+.navbar-burger {
+    width: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(20, 1, 5);
+    border: none;
+  }
+  
+  .menu-icon {
+    width: 150%;
+    height: 100%;
+    border: none;
+  }
+
+  @media only screen and (max-width: 767px) {
+     .navbar-brand {
+        display: flex;
+        justify-content: space-between;
+        margin: 4%;
+        
+     }
+     .hum {
+        border: none;
+        color: white;
+        margin: 0;
+        font-size: 50px;
+     }
+     .cancel {
+        color: white;
+        font-size: 30px;
+     }
+     .food-name {
+        color: white;
+     }
+     #logo {
+        width: 50%;
+     }
+     .navbar-items {
+        background-color: white;
+        list-style: none;
+     }
+     .navbar-items li a {
+        text-decoration: none;
+     }
+  }
+  
+  
+  /* Add additional styling for your navigation items, logo, and other styles as needed */
+  
