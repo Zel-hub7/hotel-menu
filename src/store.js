@@ -1,7 +1,7 @@
 const menuItems = {
     Salad: [
-      { name: "Tuna Salad", ingredient: "", price: "600" },
-      { name: "Tomato Salad", ingredient: "", price: "500" },
+      { name: "Tuna Salad", ingredient: "Drained tuna in a medium bowl, plain, green, youghurt, mayonnaise, onion, celery, lettuce, chilli, tomato", price: "600" },
+      { name: "Tomato Salad", ingredient: "Tomato chilli, onion, garrice parsely, Vinagirette Dressing", price: "500" },
       { name: "Lentil and Avocado Salad", ingredient: "", price: "600" },
       { name: "Ethiopian Salad", ingredient: "", price: "550" },
       { name: "Cucumber Salad", ingredient: "", price: "550" },

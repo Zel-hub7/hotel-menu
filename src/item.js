@@ -1,18 +1,18 @@
 import './App.css'
-import img from './img/food.jpg'
+
 
 const menuItems = {
     Salad: [
       { name: "Tuna Salad", ingredient: "Drained Tuna in a medium bowl, plain,green, yoghurt,onion,lettuce,tomato", price: "600" },
-      { name: "Tomato Salad", ingredient: "", price: "500" },
-      { name: "Lentil and Avocado Salad", ingredient: "", price: "600" },
-      { name: "Ethiopian Salad", ingredient: "", price: "550" },
-      { name: "Cucumber Salad", ingredient: "", price: "550" },
-      { name: "Chicken Salad", ingredient: "", price: "600" },
-      { name: "Mixed Salad", ingredient: "", price: "600" },
-      { name: "Beans Salad", ingredient: "", price: "00" },
-      { name: "White House Special Salad", ingredient: "", price: "1000" },
-      { name: "Potato Salad", ingredient: "", price: "500" },
+      { name: "Tomato Salad", ingredient: "Tomato chilli, onion, garrice parsely, Vinagirette Dressing", price: "500" },
+      { name: "Lentil and Avocado Salad", ingredient: "cooked lentil, chilli, onion, local mustared, avocado, Tomato, lemon juice", price: "600" },
+      { name: "Ethiopian Salad", ingredient: "cabbage,greter, carrot, parsely, chilli, onion, youger paprika(datta), vegetable sauce", price: "550" },
+      { name: "Cucumber Salad", ingredient: "cucumber, onion, chilli, mayonnaise red chilli, vegetable sauce, cheese", price: "550" },
+      { name: "Chicken Salad", ingredient: "Tomato, crumber, onion, cheese, cooked chicken meat, Vinaigrette Dressing", price: "600" },
+      { name: "Mixed Salad", ingredient: "Only green lattice, crumber, sun flower seeds, onion, mixed fruit(mango, papaye, avocado) crouton breads Vinaigrette Dressing", price: "600" },
+      { name: "Beans Salad", ingredient: "Lettuce, CHilli, onion, tomato, sweet corn, green beans, crumber, broccolini, mayonayz dressing", price: "700" },
+      { name: "White House Special Salad", ingredient: "crumber, sweet corn, boiled egg, slice beef, potato, apple, mayonayz, avocado", price: "1000" },
+      { name: "Potato Salad", ingredient: "Potato dice, parsely, red chilli, mint leaves, Vinaigrette Dressing, mayonayz", price: "500" },
     ],
     Juice: [
       { name: "Fruit Punch", ingredient: "Apple, Mango, Papaye, Watermelon, Strawberry, green and red apple", price: "600" },
@@ -95,9 +95,7 @@ const menuItems = {
                 
               <div key={item.name}>
                 <div className="food-item">
-                  <div className="food-image">
-                    <img id='imgs' src={img} alt="Food" />
-                  </div>
+
                   <div className="food-details">
                     <p className="food-name">{item.name}</p>
                     <p className="des">{item.ingredient}</p>
